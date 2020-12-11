@@ -38,8 +38,7 @@ function AddUser() {
     const {
 		values,
 		errors,
-        handleChange,
-        handleSubmit,
+        handleChange,        
         isSubmitting,
         touched        
 	} = formik;

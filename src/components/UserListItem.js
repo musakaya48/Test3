@@ -15,7 +15,7 @@ function UserListItem({usr}) {
     return (
         <div>
             <span>{usr.name}</span>
-            <a style={{marginLeft:'5px', color:'red'}} onClick={()=>deleteUser(usr.id)}>Sil</a>
+            <span style={{marginLeft:'5px', color:'red'}} onClick={()=>deleteUser(usr.id)}>Sil</span>
         </div>
     );
 }
